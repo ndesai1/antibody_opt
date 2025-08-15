@@ -6,7 +6,7 @@ To install the repo:
    
 ``` git clone https://github.com/ndesai1/antibody_opt.git ```
 
-3. Create conda environment using environment.yml file:
+2. Create conda environment using environment.yml file:
    
 ``` cd antibody_opt ```
 
