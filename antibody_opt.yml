@@ -1,0 +1,16 @@
+name: antibody_opt
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - pathlib
+  - requests
+  - pytorch
+  - numpy
+  - pandas
+  - pip>=23.1.2
+  - pytest>=7.1.2
+  - hmmer=3.3.2
+  - pip:
+    - biopython>=1.79
