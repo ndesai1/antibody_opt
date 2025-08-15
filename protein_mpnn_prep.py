@@ -1,7 +1,8 @@
-'''Functions to extract non-CDR residues that will be kept fixed
-while CDR regions are varied using protein MPNN'''
+"""Functions to extract non-CDR residues that will be kept fixed
+while CDR regions are varied using protein MPNN"""
+
 import os
-from get_ab_seq import Ab_Ag_Seq_Extractor
+from modules.get_ab_seq import Ab_Ag_Seq_Extractor
 
 
 class Protein_MPNN_prep:

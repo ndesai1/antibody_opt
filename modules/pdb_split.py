@@ -1,3 +1,6 @@
+"""Modules for splitting up PDB file containing antibody structure
+and extracting the heavy and light chains for the antibody"""
+
 import os
 from Bio import PDB
 

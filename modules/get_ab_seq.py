@@ -1,3 +1,7 @@
+"""Module for extracting the sequence and structures for the
+antibody and antigen, and getting the CDR regions
+from the heavy and light chains of the antibodies"""
+
 import os
 
 from Bio.PDB import PDBParser
@@ -6,7 +10,7 @@ from Bio.SeqUtils import seq1
 from Bio import SeqIO
 
 from pdb_split import AbPDBSplit
-from ab_seq_annotation import Annotate
+from modules.ab_seq_annotation import Annotate
 
 
 class Ab_Ag_Seq_Extractor:
